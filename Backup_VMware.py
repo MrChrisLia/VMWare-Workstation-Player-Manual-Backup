@@ -46,4 +46,7 @@ def run_script_prompt():
 
 
 if __name__ == '__main__':
+    print("Starting Backup...")
     run_script_prompt()
+    print("Backup complete... this window will automatically close...")
+    exit()
